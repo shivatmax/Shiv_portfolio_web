@@ -7,6 +7,7 @@ import Link from "next/link";
 import Profilepic from "../../public/images/profile/Shiv.png";
 import { RiContactsBookFill } from "react-icons/ri";
 import LightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
+import Logo from "../../public/images/logo.png";
 import Transitions from "@/Components/Transitions";
 import { ImUserTie } from "react-icons/im";
 import { GoProject } from "react-icons/go";
@@ -35,10 +36,6 @@ export default function Home() {
               />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
-              {/* <AnimatedText
-                text="Hey ! "
-                className="!text-6xl  !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
-              /> */}
              
              
               <AnimatedText
@@ -93,7 +90,7 @@ export default function Home() {
         </Layout>
         <div className="absolute w-24 right-8 bottom-1  inline-block">
           <Image
-            src={LightBulb}
+            src={Logo}
             alt="Bulb"
             className="w-full h-auto md:hidden"
           />
