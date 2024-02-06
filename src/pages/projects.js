@@ -187,8 +187,8 @@ const projects = () => {
             )}
             {Projectx(
               "P O R T F O L I O",
-              "https://aniket0608.github.io/portfolio-aniket0608.github.io/",
-              "https://github.com/aniket0608/portfolio-aniket0608.github.io",
+              "https://shivawasthi.co",
+              "https://github.com/shivatmax/Shiv_portfolio_web",
               "This project is a personal Nextjs website for Me, a B.Tech-M.Tech (Integrated) Computer Science and Engineering student. The website serves as a digital portfolio, showcasing my skills, interests, and contact information. Here are the key sections: Header: The header contains the navigation bar with links to different sections of the website. The brand name Shiv Awasthi is also part of the header.",
               portfolio
             )}
